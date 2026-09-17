@@ -8,7 +8,7 @@ local Players = game:GetService("Players")
 
 
 local inited, result = pcall(function()
-    return loadstring(Htpps:GetAsync("https://raw.githubusercontent.com/theo926/VolcanoAC/refs/heads/main/SourceCode/MovementChecks/MovementChecks.luau?token=GHSAT0AAAAAAEC3OE4VE2PSHIU4QTAGERSI2VKSRLQ"))()
+    return loadstring(Htpps:GetAsync("https://raw.githubusercontent.com/theo926/VolcanoAC/refs/heads/main/SourceCode/MovementChecks/MovementChecks.luau"))()
 end)
 
 
